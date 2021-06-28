@@ -1,0 +1,263 @@
+header {
+    background-color: #95CFB6; font-size: 20px; padding: 0px;height: 50px;
+    width:100%;
+
+}
+main {
+    position:absolute;
+    top:65px;
+    float:left;margin: 0px;width:100%; padding: 0px;
+    }
+a {
+    position:relative;
+    top: 10px;
+    left:15px;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+span {
+    vertical-align: middle;
+}
+
+div{
+    display:block;;
+}
+.google-maps{
+    position:relative;
+    top:250px;
+    padding-bottom:100%;
+    height:0;
+    overflow:hidden;
+}
+.google-maps iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100% !important;
+    height:100% !important;
+}
+
+.animate__animated.animate__backInDown {
+    --animate-duration: 2s;
+}
+
+
+.submit {
+    top: 9px;
+    left:45%;
+    position:relative;
+    background-color: none;
+    padding: .5em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+}
+.submit:hover {
+    border: none;
+    background: #AEC8E8;
+    box-shadow: 0px 0px 1px #777;
+}
+.container {
+    display:flex;
+    width:100%;
+}
+
+.container .c_child{
+    flex:1;
+}
+
+.container .c_child .s0{
+    border:gray solid 0px;
+    position:relative;
+    left: 90px;
+    max-width: 250px;
+    margin:auto;
+}
+
+.container .c_child .s{
+    border:gray solid 1px;
+    position:relative;
+    left: 90px;
+    max-width: 250px;
+    margin:auto;
+}
+
+.container .c_child .s2{
+    border:gray solid 0px;
+    position:relative;
+    left: 200px;
+    top:15px;
+    max-width: 230px;
+    margin:auto;
+}
+
+.container .c_child .t{
+    position:relative;
+    left: 0px;
+    max-width: 250px;
+    margin:auto;
+}
+ul {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+}
+.tt {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    position: relative;
+    left:15px;
+}
+
+.ct {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left:15px;
+}
+.fpage {
+    font-family: 'Oswald', sans-serif;
+    background: #E0E9F1;
+    height: 700px;
+}
+
+#fpagep {
+    height: 400px;
+    border: 5px solid black;
+    float: left;
+    position:relative;
+    left:10px;
+    top: 5px;
+}
+
+#fpaget {
+    float: left;
+    position:relative;
+    font-size: 30px;
+    left:70px;
+    max-width:800px;
+}
+
+.abt {
+    top:10px;
+    position:relative;
+    background-color: #F6F4D7;
+    font-family: 'Oswald', sans-serif;
+    height:400px;
+}
+
+#aboutme {
+    position:relative;
+    left:15px;
+    top:25px;
+    font-size: 40px;
+    margin:0px;
+}
+
+#abtt {
+    float: left;
+    position:relative;
+    font-size: 30px;
+    left:30px;
+}
+
+#skills {
+    position:relative;
+    left:15px;
+    top:25px;
+    font-size: 40px;
+    margin:0px;
+}
+#interests {
+    position:relative;
+    left:15px;
+    top:25px;
+    font-size: 40px;
+    margin:0px;
+}
+
+#experience {
+    position:relative;
+    left:15px;
+    top:25px;
+    font-size: 40px;
+    margin:0px;
+}
+
+#contact {
+    position:relative;
+    left:15px;
+    top:25px;
+    font-size: 40px;
+    margin:0px;
+}
+
+#ntucup {
+    position:relative;
+    top: 50px;
+    max-width: 1200px;
+    margin:auto;
+    opacity: 50%;
+}
+
+.submitn {
+    top:-100px;
+    left:550px;
+    margin:auto;
+    position:relative;
+    background-color: none;
+    padding: .5em;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    font-size: 50px;
+    text-decoration: none;
+    border: none;
+}
+.submitn:hover {
+    border: none;
+    background: #AEC8E8;
+    box-shadow: 0px 0px 1px #777;
+}
+
+.abtp {
+    display: inline-block;
+    text-align:right;
+}
+#pic {
+    position: relative;
+    left:500px;
+    max-height:300px;
+}
+
+.ms {
+    top:20px;
+    position:relative;
+    background-color: #78ADD0;
+    font-family: 'Oswald', sans-serif;
+    height:1010px;
+}
+
+.ee {
+    position:relative;
+    top:30px;
+    background-color: #A3C2DF;
+    font-family: 'Oswald', sans-serif;
+    height:400px;
+}
+
+.it {
+    position:relative;
+    top:40px;
+    background-color: #D7DE8A;
+    font-family: 'Oswald', sans-serif;
+    height:2000px;
+}
