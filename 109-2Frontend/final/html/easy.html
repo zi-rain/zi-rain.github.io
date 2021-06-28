@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+  <title>Memory Game-easy</title>
+
+  <link rel="stylesheet" href="../styleg.css">
+</head>
+<body>
+  <section class="memory-game">
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="../img/back6.png" alt="Aurelia" id="card11"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge"  />
+    </div>
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="../img/back6.png" alt="Aurelia" id="card12"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="../img/back5.png" alt="Vue" id="card21"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="../img/back5.png" alt="Vue" id="card22"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="../img/back4.png" alt="Angular" id="card31"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="../img/back4.png" alt="Angular" id="card32"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="../img/back3.png" alt="Ember" id="card41"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="../img/back3.png" alt="Ember" id="card42"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="../img/back2.png" alt="Backbone" id="card51"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="../img/back2.png" alt="Backbone" id="card52"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="react">
+      <img class="front-face" src="../img/back.png" alt="React" id="card61"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="react">
+      <img class="front-face" src="../img/back.png" alt="React" id="card62"/>
+      <img class="back-face" src="../img/cover.png" alt="JS Badge" />
+    </div>
+  </section>
+  <div class="count">
+      <p id="count1">翻了0次</p>
+      <p class="timer" id="t1">
+          00:00
+      </p>
+  </div>
+  
+  <div id="inputimg">
+    <h3>自訂圖片（若無則為預設圖片）</h3>
+    <form runat="server">
+        <div>
+      <a>圖片1</a>
+      <input accept="image/*" type='file' id="imgInp1" />
+      <img class="print" id="img1" src="#" alt="your image" />
+      <a>圖片2</a>
+      <input accept="image/*" type='file' id="imgInp2" />
+      <img class="print" id="img2" src="#" alt="your image" />
+    </div>
+    <div>
+      <a>圖片3</a>
+      <input accept="image/*" type='file' id="imgInp3" />
+      <img class="print" id="img3" src="#" alt="your image" />
+      <a>圖片4</a>
+      <input accept="image/*" type='file' id="imgInp4" />
+      <img class="print" id="img4" src="#" alt="your image" />
+    </div>
+    <div>
+      <a>圖片5</a>
+      <input accept="image/*" type='file' id="imgInp5" />
+      <img class="print" id="img5" src="#" alt="your image" />
+      <a>圖片6</a>
+      <input accept="image/*" type='file' id="imgInp6" />
+      <img class="print" id="img6" src="#" alt="your image" />
+    </div>
+    </form>
+    <button class="submit2" onclick="getElementById('inputimg').style.display='none'" >開始</button>
+  </div>
+  
+<div class="endd">
+    <p>Great job!</p>
+    <div class="counter" id="count2">  
+        <p>翻了0次</p> 
+   </div>
+   <p class="timespent" id="t2">
+    00:00
+   </p>
+   
+    <a><button class="submit" id="retry" onclick="push()">Retry</button></a>
+    <a href="homepage.html"><button class="submit" id="menu">Menu</button></a>
+</div>
+<script src="../js/input.js"></script>
+<script src="../js/gamee.js"></script>
+</body>
+</html>
+
