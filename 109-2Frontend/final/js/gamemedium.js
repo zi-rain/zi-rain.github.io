@@ -26,8 +26,7 @@ function stopTimer() {
 
 function reseTimer() {
     mins = 0; seconds = 0;
-    let tr=document.getElementById("t1");
-    tr.textContent=checkTime(mins) + ":" + checkTime(seconds);
+    $("#t1").text(checkTime(mins) + ":" + checkTime(seconds));
 };
 
 function startTimer() {
@@ -37,9 +36,7 @@ function startTimer() {
             seconds = 0;
             mins++;
         }
-        let tr=document.getElementById("t1");
-        tr.textContent=checkTime(mins) + ":" + checkTime(seconds);
-
+        $("#t1").text(checkTime(mins) + ":" + checkTime(seconds));
         startTimer();
     }, 1000);
 }
@@ -52,8 +49,7 @@ function flipCard() {
   if (lockBoard) return;
   if (this === firstCard) return;
 times+=1;
-let ct=document.getElementById("count1");
-ct.textContent="翻了"+Math.floor(times/2)+"次";
+$("#count1").text("翻了"+Math.floor(times/2)+"次");
   this.classList.add('flip');
 
   if (!hasFlippedCard) {
@@ -83,13 +79,10 @@ function disableCards() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
   if(count==n){
-    let ts=document.getElementById("t2");
-    ts.textContent=checkTime(mins) + ":" + checkTime(seconds);
+    $("#t2").text(checkTime(mins) + ":" + checkTime(seconds))
     stopTimer();
-    let ct=document.getElementById("count2");
-    ct.textContent="翻了"+Math.floor(times/2)+"次";
-    var win = document.querySelector('.endd');
-    win.style = "display:flex";
+    $("#count2").text("翻了"+Math.floor(times/2)+"次")
+    $(".endd").css("display","flex")
 }
   resetBoard();
 }
