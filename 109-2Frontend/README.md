@@ -32,6 +32,11 @@
 google fonts</br></br>
 
 ### 參考資料：</br>
+記憶遊戲原理與主程式：https://github.com/code-sketch/memory-game </br>
 透過js修改css樣式：https://ithelp.ithome.com.tw/articles/10226003 </br>
 透過js跳轉頁面：https://ithelp.ithome.com.tw/articles/10190062 </br>
-參考學長姐網頁：
+參考學長姐網頁（js使用方法、css設定）：https://yichiehliu.github.io/final/game.html </br>
+https://hsuehchieh.github.io/109-1Frontend/Final/TaiwanMonopoly.html </br>
+onclick使用方法：https://www.w3schools.com/jsref/event_onclick.asp </br>
+上傳圖片+預覽：https://progressbar.tw/posts/47 </br>
+https://stackoverflow.com/questions/4459379/preview-an-image-before-it-is-uploaded </br>
